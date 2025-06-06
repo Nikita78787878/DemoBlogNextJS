@@ -1,0 +1,59 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--black-с20);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--white);
+    max-width: 320px;
+}
+
+.cardBody {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.leftGroup {
+    display: flex;
+    align-items: center;
+}
+
+.rightGroup {
+    /* в данном случае можно не прописывать стили, или задать дополнительный отступ */
+}
+
+.readLink {
+    font-size: 12px;
+    line-height: 16px;
+    color: #1473E6; /* например, синий */
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.readLink:hover {
+    text-decoration: underline;
+}
+
+.readArrow {
+    margin-left: 4px;
+    font-size: 12px;
+}
+
+.topIcon {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* например, отступ между иконкой и текстом */
+    margin: 12px 0; /* какой-то внешний отступ, если нужно */
+}

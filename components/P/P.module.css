@@ -1,0 +1,26 @@
+.p1{
+    margin: 0;
+    font-weight: 400;
+    color: var(--black-с20);
+}
+
+.s{
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Open Sans';
+
+}
+
+.m{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+    color: var(--black-с30);
+
+}
+
+.l{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Open Sans';
+}
