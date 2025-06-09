@@ -3,13 +3,9 @@
     align-items: center;
     cursor: pointer;
     user-select: none;
-
-    /* Убираем дефолтный фон/границу у кнопки */
     background: transparent;
     border: none;
-    padding: 0; /* по желанию: можно убрать всегда */
 }
-
 
 .icon {
     width: 16px;
@@ -19,18 +15,14 @@
     transition: fill 0.2s;
 }
 
-.iconActive {
-    fill: #87ceeb; /* голубой при активном состоянии */
+.Active {
+    fill: #87ceeb;
 }
 
 .count {
     font-size: 14px;
     line-height: 16px;
     color: var(--black-с30);
-    /* если число идёт слева от иконки, задать отступ справа */
     margin-right: 4px;
 }
 
-.countActive {
-    color: #87ceeb;
-}

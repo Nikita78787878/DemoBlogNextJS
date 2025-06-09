@@ -12,36 +12,23 @@ export const Like = ({
                          className,
                          ...props
                      }: LikeProps): JSX.Element => {
-    // Локальный стейт, если хотим управлять внутри компонента
+
     const [isLiked, setIsLiked] = useState(initialActive);
     const [count, setCount] = useState(initialCount);
 
-    const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-        // Если пришёл проп onClick из props, сперва его вызовем
-        if (props.onClick) {
-            props.onClick(e);
-        }
-
-        // Затем переключаем локальную активность / количество
-        setIsLiked(prev => !prev);
-        setCount(prev => (isLiked ? prev - 1 : prev + 1));
-    };
-
     return (
         <button
-            // Передаём все стандартные пропсы кнопки (напр. disabled, aria-label, title)
-            // кроме onClick — мы его переопределили своей функцией handleClick
-            {...props}
-            onClick={handleClick}
-            type="button"
+            onClick={() =>
+                (setIsLiked(prev => !prev),
+                setCount(prev => (isLiked ? prev - 1 : prev + 1)))}
+
             className={cn(styles.like, className)}
-            aria-pressed={isLiked}
+            {...props}
         >
-            {/* Сначала число, потом иконка */}
-            <span className={cn(styles.count, { [styles.countActive]: isLiked })}>
+            <span className={cn(styles.count)}>
         {count}
       </span>
-            <ArrowIcon className={cn(styles.icon, { [styles.iconActive]: isLiked })} />
+            <ArrowIcon className={cn(styles.icon, { [styles.Active]: isLiked })} />
         </button>
     );
 };
