@@ -21,15 +21,11 @@
     z-index: 1;
 }
 
-.like path {
-    stroke: #303030;
-}
-
 .button.active .bg {
     fill: #303030;
 
 }
 
-.button.active .like path {
+.button.active .like {
     stroke: var(--white);
 }
