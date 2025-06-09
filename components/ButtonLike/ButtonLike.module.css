@@ -1,0 +1,35 @@
+.button {
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.svgWrapper {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.like {
+    z-index: 1;
+}
+
+.like path {
+    stroke: #303030;
+}
+
+.button.active .bg {
+    fill: #303030;
+
+}
+
+.button.active .like path {
+    stroke: var(--white);
+}

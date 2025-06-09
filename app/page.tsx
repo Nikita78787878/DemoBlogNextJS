@@ -1,5 +1,5 @@
 'use client';
-import { Card} from "../components";
+import {ButtonLike, Card} from "../components";
 
 
 
@@ -19,6 +19,9 @@ export default function HomePage() {
                     isLiked={false}
                 />
             </div>
+            <>
+                <ButtonLike isActive={false} />
+            </>
         </section>
     );
 }
