@@ -1,5 +1,5 @@
 'use client';
-import {ButtonLike, Card} from "../components";
+import {ButtonLike, Card} from "../../components";
 
 
 

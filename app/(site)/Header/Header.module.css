@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+}
+
+.logo {
+    justify-self: start;
+}
+
+.center {
+    justify-self: center;
+}
+
+.github {
+    justify-self: end;
+}
