@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import "./globals.css";
-import {Header} from "@/app/(site)/Header/Header";
+import {Header} from "@/components/Header/Header";
+import styles from "./layout.module.css"
 
 
 export const metadata: Metadata = {
@@ -16,8 +17,12 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
-      <Header/>
-        {children}
+          <div className={styles.wrapper}>
+              <Header/>
+              <div className={styles.body}>
+                  {children}
+              </div>
+          </div>
       </body>
     </html>
   );

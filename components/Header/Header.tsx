@@ -10,7 +10,7 @@ export const Header = (): JSX.Element => {
         <header className={styles.header}>
 
             <div className={styles.logo}>
-                <div>.my_blog</div>
+                <div style={{ fontSize: 40 }}>.my_blog</div>
 
             </div>
 
