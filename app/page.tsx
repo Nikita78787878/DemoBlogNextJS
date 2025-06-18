@@ -2,6 +2,7 @@
 
 import {Card} from "@/components";
 
+
 export default function HomePage() {
     return (
        <>
@@ -38,6 +39,9 @@ export default function HomePage() {
                likeCount={4}
                isLiked={false}
            />
+
+
+
        </>
     );
 }
