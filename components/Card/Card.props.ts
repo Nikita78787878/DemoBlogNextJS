@@ -6,7 +6,6 @@ export interface CardProps {
     title: string;          // заголовок карточки
     description: string;    // короткий анонс
     readTime: string;       // например, "3 минуты"
-    onReadClick?: () => void; // обработчик клика по «Читать →»
     likeCount?: number;
     isLiked?: boolean;
 }
