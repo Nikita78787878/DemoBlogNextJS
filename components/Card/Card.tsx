@@ -11,7 +11,7 @@ import { Open_Sans } from 'next/font/google';
 import {JSX} from "react";
 
 import MiniIcon from './mini.svg';
-import Arrow from './arrow.svg';
+import Link from "next/link";
 
 const openSans = Open_Sans({
     subsets: ['cyrillic', 'latin'],
@@ -27,7 +27,6 @@ export const Card = ({
                          title,
                          description,
                          readTime,
-                         onReadClick,
                          likeCount = 0,
                          isLiked = false,
                      }: CardProps): JSX.Element => {
@@ -65,6 +64,7 @@ export const Card = ({
 
                 {/* Нижняя строка: время чтения, кнопка «Читать» и «лайк» */}
                 <div className={styles.row}>
+
                     <div className={styles.leftGroup}>
                         <Tag color="--black-с20">
                             {readTime}
@@ -72,13 +72,9 @@ export const Card = ({
                     </div>
 
                     <div className={styles.rightGroup}>
-                        <span
-                            className={cn(styles.readLink, openSans.className)}
-                            onClick={onReadClick}
-                        >
-                            Читать
-                            <span className={styles.readArrow}><Arrow/></span>
-                        </span>
+                        <Link href="/postData/1">
+                            <Tag color="--blue">Читать →</Tag>
+                        </Link>
                         </div>
 
                     </div>

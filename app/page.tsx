@@ -13,7 +13,6 @@ export default function HomePage() {
                title="Как работать с CSS Grid"
                description="Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и для верстки основных областей страницы.."
                readTime="3 минуты"
-               onReadClick={() => {}}
                likeCount={4}
                isLiked={false}
            />
@@ -24,7 +23,6 @@ export default function HomePage() {
                title="Как работать с CSS Grid"
                description="Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и для верстки основных областей страницы.."
                readTime="3 минуты"
-               onReadClick={() => {}}
                likeCount={4}
                isLiked={false}
            />
@@ -35,7 +33,6 @@ export default function HomePage() {
                title="Как работать с CSS Grid"
                description="Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и для верстки основных областей страницы.."
                readTime="3 минуты"
-               onReadClick={() => {}}
                likeCount={4}
                isLiked={false}
            />
