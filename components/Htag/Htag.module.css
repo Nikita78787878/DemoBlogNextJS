@@ -8,3 +8,24 @@
     color: var(--black);
 }
 
+.h1Post{
+    /* Как работать с CSS Grid */
+
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    /* --c-black */
+    color: var(--black);
+
+}
+
+.h2Post{
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: var(--black);
+
+}
+

@@ -16,6 +16,18 @@ export const Htag = ({ tag, children }: HtagProps): JSX.Element => {
                     {children}
                 </h1>
             );
+        case 'h1Post':
+            return (
+                <h1 className={`${styles.h1Post} ${openSans.className}`}>
+                    {children}
+                </h1>
+            );
+        case 'h2Post':
+            return (
+                <h1 className={`${styles.h2Post} ${openSans.className}`}>
+                    {children}
+                </h1>
+            );
         default:
             return <></>;
     }
