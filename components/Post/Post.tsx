@@ -1,7 +1,7 @@
 import {PostProps} from "@/components/Post/Post.props";
 import {JSX} from "react";
 import PostPicture from './postSvg.svg'
-import {Htag, Like, Tag} from "@/components";
+import {Comments, Htag, Like, Tag} from "@/components";
 import styles from "./Post.module.css";
 
 export const Post = ({
@@ -45,6 +45,8 @@ export const Post = ({
             <div className={styles.text}>
                 {description2}
             </div>
+
+            <Comments/>
 
         </div>
 

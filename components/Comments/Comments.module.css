@@ -1,0 +1,39 @@
+.comm{
+    display: grid;
+    gap: 20px;
+    max-width: 657px;
+}
+
+.tagName{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4b4b4b;
+}
+
+.tagEmail{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6e6e6e;
+}
+
+/* Контейнер для имени, точки и email */
+.commentHeader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap; /* запретить перенос внутри строки */
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #4b4b4b;
+}
+
