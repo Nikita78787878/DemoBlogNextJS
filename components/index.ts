@@ -1,5 +1,3 @@
-import {Input} from "@/components/Input/Input";
-
 export * from "./Htag/Htag"
 export * from "./P/P"
 export * from "./Tag/Tag"
