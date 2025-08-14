@@ -1,0 +1,48 @@
+.input{
+
+    padding: 7px 15px;
+    color: var(--black);
+    border: 1px solid rgba(40, 40, 40, 0.16);
+    outline-color: var(--blue);
+    background: var(#FFFFFF);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    font-size: 15px;
+    line-height: 22px;
+    font-family: var(--font-family);
+
+    width: 643px;
+    height: 58px;
+
+}
+
+.inputWrapper{
+    position: relative;
+}
+
+
+.error{
+    border: 1px solid var(--red);
+
+}
+
+.errorMessage{
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    color: var(--red);
+}
+
+/*!* Rectangle 16 *!*/
+
+/*box-sizing: border-box;*/
+
+/*position: absolute;*/
+/*width: 643px;*/
+/*height: 58px;*/
+
+/*background: #FFFFFF;*/
+
+/*border-radius: 8px;*/
+

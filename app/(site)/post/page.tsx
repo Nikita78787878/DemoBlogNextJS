@@ -1,9 +1,10 @@
 import {Post} from "@/components";
+import {ReviewForm} from "@/components/ReviewForm/ReviewForm";
 
 
 export default function PostPage() {
     return (
-        <>
+        <div>
             <Post
                 category="Front-end"
                 point="·"
@@ -16,6 +17,10 @@ export default function PostPage() {
                 likeCount={4}
                 isLiked={false}
             />
-        </>
+            {/*<Input placeholder='Input'/>*/}
+            {/*<TextArea placeholder='TextArea'/>*/}
+            {/*<Button>Отправить</Button>*/}
+            <ReviewForm/>
+        </div>
     )
 }

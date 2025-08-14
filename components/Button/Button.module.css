@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background: #303030;
+    color: white;
+
+    width: 229px;
+    height: 48px;
+
+    font-size: 14px;
+    transition: all 0.2s;
+
+    margin-bottom: 100px;
+}
+
+/* Rectangle 10 */
+
+/*position: absolute;*/
+
+/*top: 1530px;*/
+
+/*background: #303030;*/
+/*border-radius: 8px;*/

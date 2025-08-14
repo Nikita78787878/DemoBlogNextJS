@@ -6,6 +6,9 @@
   --black-с30: #4B4B4B;
   --blue: #00BCD4;
   --white: #ffffff;
+  --font-family: "Noto Sans KR", sans-serif;
+  --red: #FC836D;
+  --red-light: #fea291;
 }
 
 @media (prefers-color-scheme: dark) {

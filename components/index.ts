@@ -1,3 +1,5 @@
+import {Input} from "@/components/Input/Input";
+
 export * from "./Htag/Htag"
 export * from "./P/P"
 export * from "./Tag/Tag"
@@ -7,3 +9,7 @@ export * from "./ButtonLike/ButtonLike"
 export * from "./PostData/PostData"
 export * from "./Post/Post"
 export * from "./Comments/Comments"
+export * from "./Input/Input"
+export * from "./TextArea/TextArea"
+export * from "./Button/Button"
+export * from "./ReviewForm/ReviewForm"
